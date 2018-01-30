@@ -1,0 +1,25 @@
+﻿<Window x:Class="ObserverPattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObserverPattern"
+        mc:Ignorable="d"
+        Title="Whether Data" Height="250" Width="290">
+    <Grid>
+        <StackPanel>
+            <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="180" Margin="10" VerticalAlignment="Top" Width="250">
+                <StackPanel Width="auto" Height="auto">
+                    <Label HorizontalAlignment="Center" VerticalAlignment="Bottom" x:Name="label" Content="Weather Data Station" Width="124"/>
+                    <Separator></Separator>
+                    <Separator></Separator>
+                    <StackPanel Orientation="Vertical">
+                        <Button Name="btCurrentConditionDisplay" Width="108" Height="28" Margin="0,10" Click="btCurrentConditionDisplay_Click" >Curent Condition</Button>
+                        <Button Name="btStatickDisplay" Width="108" Height="28" Margin="0,10" Click="btStatickDisplay_Click" >Statistics Display</Button>
+                        <Button Name="btForecastDisplay" Width="108" Height="28" Margin="0,10" Click="btForecastDisplay_Click" >Forecast Display</Button>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Grid>
+</Window>

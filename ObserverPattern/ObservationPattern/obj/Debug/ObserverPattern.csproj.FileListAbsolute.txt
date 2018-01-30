@@ -1,0 +1,41 @@
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\bin\Debug\ObservationPattern.exe.config
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\bin\Debug\ObservationPattern.exe
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\bin\Debug\ObservationPattern.pdb
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\CurrentConditions.g.cs
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ForecastDisplay.g.cs
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\MainWindow.g.cs
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\StatistcsDisplay.g.cs
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\App.g.cs
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ObservationPattern_MarkupCompile.cache
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ObservationPattern_MarkupCompile.lref
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\CurrentConditions.baml
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ForecastDisplay.baml
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\MainWindow.baml
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\StatistcsDisplay.baml
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ObservationPattern.g.resources
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ObservationPattern.Properties.Resources.resources
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ObserverPattern.csproj.GenerateResource.Cache
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ObservationPattern.exe
+c:\users\gsoghomo\documents\visual studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ObservationPattern.pdb
+C:\Users\gsoghomo\Documents\Visual Studio 2015\Projects\ObservationPattern\ObservationPattern\obj\Debug\ObserverPattern.csprojResolveAssemblyReference.cache
+C:\Users\gsoghomo\Desktop\ObservationPattern\ObservationPattern\bin\Debug\ObservationPattern.exe.config
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\bin\Debug\ObservationPattern.exe.config
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\bin\Debug\ObservationPattern.exe
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\bin\Debug\ObservationPattern.pdb
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ObserverPattern.csprojResolveAssemblyReference.cache
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\CurrentConditions.g.cs
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ForecastDisplay.g.cs
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\MainWindow.g.cs
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\StatistcsDisplay.g.cs
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\App.g.cs
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ObservationPattern_MarkupCompile.cache
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ObservationPattern_MarkupCompile.lref
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\CurrentConditions.baml
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ForecastDisplay.baml
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\MainWindow.baml
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\StatistcsDisplay.baml
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ObservationPattern.g.resources
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ObservationPattern.Properties.Resources.resources
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ObserverPattern.csproj.GenerateResource.Cache
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ObservationPattern.exe
+C:\Users\gsoghomo\Desktop\ObserverPattern\ObservationPattern\obj\Debug\ObservationPattern.pdb

@@ -1,0 +1,31 @@
+﻿<Window x:Class="ObserverPattern.StatistcsDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ObserverPattern"
+        mc:Ignorable="d"
+        Title="StatistcsDisplay" Height="210" Width="250">
+    <Grid>
+        <StackPanel Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Margin="10" HorizontalAlignment="Left" Text="Average Tempreature:" />
+                <TextBox Name="tbTempreature1" Height="23" HorizontalAlignment="Right" TextWrapping="Wrap" Width="100" BorderThickness="2" RenderTransformOrigin="1.653,-0.653" IsReadOnly="True" Background="LightGray" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Margin="10" HorizontalAlignment="Left" Text="Average Humidty:" Padding="0,0,22,0" />
+                <TextBox x:Name="tbHumidty1" Height="24" TextWrapping="Wrap" Width="100" BorderThickness="2" RenderTransformOrigin="1.653,-0.653" IsReadOnly="True" Background="LightGray"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock  Margin="10" HorizontalAlignment="Left"  Text="Average Pressure:" Padding="0,0,23,0" />
+                <TextBox Name="tbPressure1" Height="23" TextWrapping="Wrap" Width="100" BorderThickness="2" RenderTransformOrigin="1.653,-0.653" IsReadOnly="True" Background="LightGray"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Name="textBlock3" TextWrapping="Wrap" Margin="10" Text="Keep Updating:"/>
+                <CheckBox Margin="0,13,0,10" Name="ccCb" Checked="ccCb_Checked" Unchecked="ccCb_Unchecked" />
+                <Separator Margin="10" ></Separator>
+                <TextBlock Margin="5" Name="tbNumberOfRecords" ></TextBlock>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
