@@ -1,0 +1,24 @@
+﻿<Window x:Class="DecoratorPattern.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DecoratorPattern"
+        mc:Ignorable="d"
+        Title="MainWindow" MinHeight="350" MinWidth="525">
+    <Grid>
+        <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <StackPanel Margin="10">
+            <TextBlock Foreground="#FFE01C1C" HorizontalAlignment="Center" Margin="10" >Wellcom</TextBlock>
+            <Border Name="borderImage" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" MinHeight="120" Margin="10" VerticalAlignment="Center"  MinWidth="120">
+                <Image Name="imgDisplayImage" HorizontalAlignment="Left" Margin="10" VerticalAlignment="Top" />
+            </Border>
+            <TextBlock Margin="10,0,0,0" Name="tbFileName"></TextBlock>
+            <Separator Height="17"></Separator>
+            <Button HorizontalAlignment="Left" Margin="10" Height="25" Width="55" Click="Button_Click" >Browser</Button>
+            <Button HorizontalAlignment="Left" Margin="10" Height="25" Width="55" Click="Button_Click_1" >Save</Button>
+            <Button HorizontalAlignment="Left" Margin="10" Height="25" Width="85" Name="blackAndWhite_Button" Click="blackAndWhite_Button_Click">Make it Gray</Button>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Window>
