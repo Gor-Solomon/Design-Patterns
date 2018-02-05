@@ -63,6 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Code\Decorators\RotateImage.cs" />
     <Compile Include="Code\Utilitis\Constants.cs" />
     <Compile Include="Code\Decorators\BlackWhiteImage.cs" />
     <Compile Include="Code\Decorators\ImageDecorator.cs" />

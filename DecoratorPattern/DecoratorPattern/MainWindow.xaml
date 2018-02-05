@@ -9,14 +9,19 @@
     <Grid>
         <ScrollViewer HorizontalScrollBarVisibility="Auto">
         <StackPanel Margin="10">
-            <TextBlock Foreground="#FFE01C1C" HorizontalAlignment="Center" Margin="10" >Wellcom</TextBlock>
-            <Border Name="borderImage" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" MinHeight="120" Margin="10" VerticalAlignment="Center"  MinWidth="120">
+                <TextBlock Foreground="#FFE01C1C" HorizontalAlignment="Center" Margin="10" >Wellcom</TextBlock>
+                <DockPanel LastChildFill="True">
+                    <Button Name="btRotate_Left" DockPanel.Dock="Left" Margin="10" Height="25" Click="btRotate_Left_Click" Width="75">Rotate Left</Button>
+                     
+                    <Button Name="btRotate_Right" DockPanel.Dock="Right" HorizontalAlignment="Right" Click="btRotate_Right_Click" Margin="10" Height="25" Width="75">Rotate Right</Button>
+                </DockPanel>
+                <Border Name="borderImage" BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" MinHeight="120" Margin="10" VerticalAlignment="Center"  MinWidth="120">
                 <Image Name="imgDisplayImage" HorizontalAlignment="Left" Margin="10" VerticalAlignment="Top" />
             </Border>
             <TextBlock Margin="10,0,0,0" Name="tbFileName"></TextBlock>
             <Separator Height="17"></Separator>
             <Button HorizontalAlignment="Left" Margin="10" Height="25" Width="55" Click="Button_Click" >Browser</Button>
-            <Button HorizontalAlignment="Left" Margin="10" Height="25" Width="55" Click="Button_Click_1" >Save</Button>
+            <Button HorizontalAlignment="Left" Name="btnSave" Margin="10" Height="25" Width="55" Click="Button_Click_1" >Save</Button>
             <Button HorizontalAlignment="Left" Margin="10" Height="25" Width="85" Name="blackAndWhite_Button" Click="blackAndWhite_Button_Click">Make it Gray</Button>
             </StackPanel>
         </ScrollViewer>

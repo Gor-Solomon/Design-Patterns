@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Interop;
+using System.Windows.Media;
 using System.Windows.Media.Imaging;
 
 namespace DecoratorPattern.Code
@@ -27,6 +28,27 @@ namespace DecoratorPattern.Code
             try
             {
                 retval = (BitmapImage)Imaging.CreateBitmapSourceFromHBitmap(
+                             hBitmap,
+                             IntPtr.Zero,
+                             Int32Rect.Empty,
+                             BitmapSizeOptions.FromEmptyOptions());
+            }
+            finally
+            {
+                DeleteObject(hBitmap);
+            }
+
+            return retval;
+        }
+
+        public static ImageSource Bitmap2ImageSource(Bitmap bitmap)
+        {
+            IntPtr hBitmap = bitmap.GetHbitmap();
+            ImageSource retval;
+
+            try
+            {
+                retval = Imaging.CreateBitmapSourceFromHBitmap(
                              hBitmap,
                              IntPtr.Zero,
                              Int32Rect.Empty,

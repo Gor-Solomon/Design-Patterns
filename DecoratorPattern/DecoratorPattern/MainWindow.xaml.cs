@@ -41,6 +41,11 @@ namespace DecoratorPattern
             saveFile = new Microsoft.Win32.SaveFileDialog();
             saveFile.DefaultExt = Constants.DefaultPngExt;
             saveFile.Filter = Constants.ImageFilesFilter;
+
+            btnSave.IsEnabled = false;
+            blackAndWhite_Button.IsEnabled = false;
+            btRotate_Left.IsEnabled = false;
+            btRotate_Right.IsEnabled = false;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -53,6 +58,11 @@ namespace DecoratorPattern
                 mainImage = new MainImage(imgDisplayImage,openFile.FileName);
                 imgDisplayImage = mainImage.controlerImage;
                 tbFileName.Text = openFile.SafeFileName;
+
+                btnSave.IsEnabled = true;
+                blackAndWhite_Button.IsEnabled = true;
+                btRotate_Left.IsEnabled = true;
+                btRotate_Right.IsEnabled = true;
             }
         }
 
@@ -73,7 +83,21 @@ namespace DecoratorPattern
         {
             mainImage = new BlackWhiteImage(mainImage);
             Bitmap dd = mainImage.ApplyEffect();
-            imgDisplayImage.Source = ImageOperations.Bitmap2BitmapImage(dd);
+            imgDisplayImage.Source = ImageOperations.Bitmap2ImageSource(dd);
+        }
+
+        private void btRotate_Left_Click(object sender, RoutedEventArgs e)
+        {
+            mainImage = new RotateImage(mainImage, RotateFlipType.Rotate90FlipNone);
+            Bitmap dd = mainImage.ApplyEffect();
+            imgDisplayImage.Source = ImageOperations.Bitmap2ImageSource(dd);
+        }
+
+        private void btRotate_Right_Click(object sender, RoutedEventArgs e)
+        {
+            mainImage = new RotateImage(mainImage, RotateFlipType.Rotate90FlipX);
+            Bitmap dd = mainImage.ApplyEffect();
+            imgDisplayImage.Source = ImageOperations.Bitmap2ImageSource(dd);
         }
     }
 }
