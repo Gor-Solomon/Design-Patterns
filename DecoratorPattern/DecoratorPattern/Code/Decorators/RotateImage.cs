@@ -16,9 +16,9 @@ namespace DecoratorPattern.Code.Decorators
             this.flipType = flipType;
         }
 
-        public override Bitmap ApplyEffect()
+        protected override Bitmap EffectLogic(Bitmap bitmap)
         {
-            Bitmap tempBitmap = this.wrapedImage.ApplyEffect();
+            Bitmap tempBitmap = bitmap;
             tempBitmap.RotateFlip(flipType);
             return tempBitmap;
         }

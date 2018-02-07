@@ -14,9 +14,9 @@ namespace DecoratorPattern.Code.Decorators
         {
         }
 
-        public override Bitmap ApplyEffect()
+        protected override Bitmap EffectLogic(Bitmap bitmap)
         {
-            Bitmap tempBitmap = base.ApplyEffect();
+            Bitmap tempBitmap = bitmap;
 
             int rgb;
             Color c;
@@ -25,7 +25,7 @@ namespace DecoratorPattern.Code.Decorators
             {
                 for (int x = 0; x < tempBitmap.Width; x++)
                 {
-                    c = tempBitmap.GetPixel(x, y); 
+                    c = tempBitmap.GetPixel(x, y);
                     rgb = (int)((c.R + c.G + c.B) / 3);
                     tempBitmap.SetPixel(x, y, Color.FromArgb(rgb, rgb, rgb));
                 }

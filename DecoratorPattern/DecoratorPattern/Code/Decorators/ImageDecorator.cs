@@ -12,6 +12,7 @@ namespace DecoratorPattern.Code
     abstract class ImageDecorator : IimageEffects
     {
         protected IimageEffects wrapedImage;
+        protected bool HaveBeenApplied = false;
 
         public System.Windows.Controls.Image controlerImage { get { return wrapedImage.controlerImage; } set { wrapedImage.controlerImage = value; } }
 
@@ -20,10 +21,20 @@ namespace DecoratorPattern.Code
             wrapedImage = image;
         }
 
-        public virtual Bitmap ApplyEffect()
+        public Bitmap ApplyEffect()
         {
-            return wrapedImage.ApplyEffect();
+            Bitmap bitmap = wrapedImage.ApplyEffect();
+
+            if (!HaveBeenApplied)
+            {
+                HaveBeenApplied = true;
+                EffectLogic(bitmap);
+            }
+
+            return bitmap;
         }
+
+        protected abstract Bitmap EffectLogic(Bitmap bitmap);
 
         public BitmapEncoder GetEncoder()
         {
