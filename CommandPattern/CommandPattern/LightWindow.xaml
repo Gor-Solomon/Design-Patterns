@@ -1,0 +1,15 @@
+﻿<Window x:Class="CommandPattern.LightWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CommandPattern"
+        mc:Ignorable="d"
+        Title="Light ID 1" Height="300" Width="300">
+    <Grid>
+         <Canvas Name="drawLand" HorizontalAlignment="Left" Height="193" Margin="56,29,0,0" VerticalAlignment="Top" Width="158">
+            <Ellipse Name="LightEllips" Width="100" Height="100" Fill="White"  Canvas.Left="29" Canvas.Top="31" Stroke="Black" StrokeThickness="5" />
+            <Rectangle Height="50" Width="100" Fill="Brown" Stroke="Black" StrokeThickness="5" Canvas.Left="29" Canvas.Top="131" ></Rectangle>
+        </Canvas>
+    </Grid>
+</Window>
