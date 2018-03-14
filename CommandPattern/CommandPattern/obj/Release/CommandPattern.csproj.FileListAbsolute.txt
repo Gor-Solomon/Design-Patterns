@@ -16,3 +16,27 @@ c:\users\gsoghomo\documents\visual studio 2015\Projects\CommandPattern\CommandPa
 c:\users\gsoghomo\documents\visual studio 2015\Projects\CommandPattern\CommandPattern\obj\Release\CommandPattern.csproj.GenerateResource.Cache
 c:\users\gsoghomo\documents\visual studio 2015\Projects\CommandPattern\CommandPattern\obj\Release\CommandPattern.exe
 c:\users\gsoghomo\documents\visual studio 2015\Projects\CommandPattern\CommandPattern\obj\Release\CommandPattern.pdb
+C:\Users\gsoghomo\Documents\Visual Studio 2015\Projects\CommandPattern\CommandPattern\obj\Release\Code\Recivers\Stereo\StereoWindow.g.cs
+C:\Users\gsoghomo\Documents\Visual Studio 2015\Projects\CommandPattern\CommandPattern\obj\Release\Code\Recivers\Stereo\StereoWindow.baml
+C:\Users\gsoghomo\Documents\Visual Studio 2015\Projects\CommandPattern\CommandPattern\bin\Release\Code\Recivers\Stereo\StairwayToHeaven.mp3
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\bin\Release\CommandPattern.exe.config
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\CommandPattern.exe
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\CommandPattern.pdb
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\bin\Release\Code\Recivers\Stereo\StairwayToHeaven.mp3
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\bin\Release\CommandPattern.exe
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\bin\Release\CommandPattern.pdb
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\CommandPattern.csprojResolveAssemblyReference.cache
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\MainWindow.baml
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\Code\Recivers\Garage\GarageWindow.g.cs
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\Code\Recivers\Stereo\StereoWindow.g.cs
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\Code\Recivers\Light\LightWindow.g.cs
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\MainWindow.g.cs
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\App.g.cs
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\CommandPattern_MarkupCompile.cache
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\CommandPattern_MarkupCompile.lref
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\Code\Recivers\Garage\GarageWindow.baml
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\Code\Recivers\Stereo\StereoWindow.baml
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\Code\Recivers\Light\LightWindow.baml
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\CommandPattern.g.resources
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\CommandPattern.Properties.Resources.resources
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Release\CommandPattern.csproj.GenerateResource.Cache

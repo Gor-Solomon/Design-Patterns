@@ -1,4 +1,5 @@
-﻿using CommandPattern.Code.Recivers.Garage;
+﻿using CommandPattern.Code.Recivers;
+using CommandPattern.Code.Recivers.Garage;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,16 +12,24 @@ namespace CommandPattern.Code.Commands
     {
         Garage garage;
 
-        public GarageDoorOpenCommand(Garage garage)
+        public GarageDoorOpenCommand(IControlebel garage)
         {
-            this.garage = garage;
+            this.garage = (Garage)garage;
         }
    
         public void Execute()
         {
             if (garage != null)
             {
-                garage.Up();
+                garage.On();
+            }
+        }
+
+        public void UnExecute()
+        {
+            if (garage != null)
+            {
+                garage.Off();
             }
         }
     }

@@ -1,24 +1,28 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using CommandPattern.Code.Recivers;
+﻿using CommandPattern.Code.Recivers;
+using CommandPattern.Code.Recivers.Light;
 
 namespace CommandPattern.Code.Commands
 {
     class LightOnCommand : ICommand
     {
         Light light;
-        public LightOnCommand(Light light )
+        public LightOnCommand(IControlebel light)
         {
-            this.light = light;
+            this.light = (Light) light;
         }
         public void Execute()
         {
             if (this.light != null)
             {
                 this.light.On();
+            }
+        }
+
+        public void UnExecute()
+        {
+            if (this.light != null)
+            {
+                this.light.Off();
             }
         }
     }

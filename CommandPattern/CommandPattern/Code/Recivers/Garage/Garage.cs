@@ -10,7 +10,7 @@ using System.Windows.Threading;
 
 namespace CommandPattern.Code.Recivers.Garage
 {
-    class Garage
+    class Garage : IControlebel
     {
         GarageWindow window;
         public Garage(Window mainWindow)
@@ -19,7 +19,7 @@ namespace CommandPattern.Code.Recivers.Garage
             window.Show();
             mainWindow.Closed += (e, s) => window.Dispatcher.BeginInvokeShutdown(DispatcherPriority.Send);
         }
-        public void Up()
+        public void On()
         {
             window.Dispatcher.Invoke(new Action(() =>
             {
@@ -30,7 +30,7 @@ namespace CommandPattern.Code.Recivers.Garage
             }));
         }
 
-        public void Down()
+        public void Off()
         {
             window.Dispatcher.Invoke(new Action(() =>
             {

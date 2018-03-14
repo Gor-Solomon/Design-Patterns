@@ -1,18 +1,17 @@
 ﻿using CommandPattern.Code.Commands;
 using CommandPattern.Code.Recivers;
 using CommandPattern.Code.Recivers.Garage;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CommandPattern.Code.Recivers.Light;
+using CommandPattern.Code.Recivers.Stereo;
 using System.Windows;
 
 namespace CommandPattern.Code
 {
     enum CommandsType {
         Light,
-        Garage
+        Garage,
+        Stereo,
+        MacroCommand
     }
     class CommandFactoryMethod
     {
@@ -22,25 +21,40 @@ namespace CommandPattern.Code
         {
             win = window;
         }
-        public void GetCommand(CommandsType commandType,out ICommand onCommand, out ICommand offCommand)
+        public IControlebel GetCommand(CommandsType commandType,out ICommand onCommand, out ICommand offCommand)
         {
+            IControlebel controlebel;
+
             switch (commandType)
             {
                 case CommandsType.Light:
-                    Light light = new Light(win);
-                    onCommand = new LightOnCommand(light);
-                    offCommand = new LightOffCommand(light);
+                    controlebel = new Light(win);
+                    onCommand = new LightOnCommand(controlebel);
+                    offCommand = new LightOffCommand(controlebel);
                     break;
                 case CommandsType.Garage:
-                    Garage garage = new Garage(win);
-                    onCommand = new GarageDoorOpenCommand(garage);
-                    offCommand = new GarageDoorCloseCommand(garage);
+                    controlebel = new Garage(win);
+                    onCommand = new GarageDoorOpenCommand(controlebel);
+                    offCommand = new GarageDoorCloseCommand(controlebel);
+                    break;
+                case CommandsType.Stereo:
+                    controlebel = new Stereo(win);
+                    onCommand = new StereoOnWithCDCommand(controlebel);
+                    offCommand = new StereoOffCommand(controlebel);
+                    break;
+                case CommandsType.MacroCommand:
+                    controlebel = default(IControlebel);
+                    onCommand = new MacroCommand();
+                    offCommand = new MacroCommand();
                     break;
                 default:
+                    controlebel = default(IControlebel);
                     onCommand = default(ICommand);
                     offCommand = default(ICommand);
                     break;
             }
+
+            return controlebel;
         }
     }
 }

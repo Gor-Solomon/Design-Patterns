@@ -59,7 +59,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="LightWindow.xaml">
+    <Page Include="Code\Recivers\Stereo\StereoWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Code\Recivers\Light\LightWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -76,14 +80,23 @@
     <Compile Include="Code\Commands\GarageDoorOpenCommand.cs" />
     <Compile Include="Code\Commands\LightOffCommand.cs" />
     <Compile Include="Code\Commands\LightOnCommand.cs" />
+    <Compile Include="Code\Commands\MacroCommand.cs" />
+    <Compile Include="Code\Commands\NoCommand.cs" />
+    <Compile Include="Code\Commands\StereoOffCommand.cs" />
+    <Compile Include="Code\Commands\StereoOnWithCDCommand.cs" />
     <Compile Include="Code\ICommand.cs" />
     <Compile Include="Code\InvokerRemoteControl.cs" />
     <Compile Include="Code\Recivers\Garage\Garage.cs" />
     <Compile Include="Code\Recivers\Garage\GarageWindow.xaml.cs">
       <DependentUpon>GarageWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Code\Recivers\Light.cs" />
-    <Compile Include="LightWindow.xaml.cs">
+    <Compile Include="Code\Recivers\IControlebel.cs" />
+    <Compile Include="Code\Recivers\Light\Light.cs" />
+    <Compile Include="Code\Recivers\Stereo\Stereo.cs" />
+    <Compile Include="Code\Recivers\Stereo\StereoWindow.xaml.cs">
+      <DependentUpon>StereoWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Code\Recivers\Light\LightWindow.xaml.cs">
       <DependentUpon>LightWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
@@ -117,6 +130,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Code\Recivers\Stereo\StairwayToHeaven.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

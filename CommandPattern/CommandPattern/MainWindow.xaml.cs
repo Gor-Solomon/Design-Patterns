@@ -35,11 +35,37 @@ namespace CommandPattern
 
             Code.ICommand on, off;
 
+            factoryMethod.GetCommand(CommandsType.MacroCommand, out on, out off);
+            MacroCommand partyOn = (MacroCommand)on;
+            MacroCommand partyOff = (MacroCommand)off;
+            remoteContorl.SettCommand(8, partyOn, partyOff);
+
+            factoryMethod.GetCommand(CommandsType.MacroCommand, out on, out off);
+            MacroCommand allLightsOn = (MacroCommand)on;
+            MacroCommand allLightsOff = (MacroCommand)off;
+            partyOn.SetCommand(allLightsOn);
+            partyOff.SetCommand(allLightsOff);
+            remoteContorl.SettCommand(7, on, off);
+
             factoryMethod.GetCommand(CommandsType.Light, out on, out off);
             remoteContorl.SettCommand(1, on, off);
+            allLightsOn.SetCommand(on);
+            allLightsOff.SetCommand(off);
+
+            factoryMethod.GetCommand(CommandsType.Light, out on, out off);
+            remoteContorl.SettCommand(2, on, off);
+            allLightsOn.SetCommand(on);
+            allLightsOff.SetCommand(off);
 
             factoryMethod.GetCommand(CommandsType.Garage, out on, out off);
             remoteContorl.SettCommand(4, on, off);
+            partyOn.SetCommand(on);
+            partyOff.SetCommand(off);
+
+            factoryMethod.GetCommand(CommandsType.Stereo, out on, out off);
+            remoteContorl.SettCommand(6, on, off);
+            partyOn.SetCommand(on);
+            partyOff.SetCommand(off);
 
         }
 
@@ -55,6 +81,10 @@ namespace CommandPattern
             remoteContorl.OffButtonPress(int.Parse(b.Tag.ToString()));
         }
 
+        private void bt_Undo_Click(object sender, RoutedEventArgs e)
+        {
+            remoteContorl.UnExecute();
+        }
     }
 }
 

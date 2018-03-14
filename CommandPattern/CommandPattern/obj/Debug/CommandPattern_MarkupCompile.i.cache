@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-c:\users\gsoghomo\documents\visual studio 2015\Projects\CommandPattern\CommandPattern\obj\Debug\
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\obj\Debug\
 CommandPattern
 none
 false
 DEBUG;TRACE
-c:\users\gsoghomo\documents\visual studio 2015\Projects\CommandPattern\CommandPattern\App.xaml
-3-1926135468
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\CommandPattern\CommandPattern\App.xaml
+4-1059881211
 
-2020944297
+271811606441
 13738642453
-Code\Recivers\Garage\GarageWindow.xaml;LightWindow.xaml;MainWindow.xaml;
+Code\Recivers\Garage\GarageWindow.xaml;Code\Recivers\Stereo\StereoWindow.xaml;Code\Recivers\Light\LightWindow.xaml;MainWindow.xaml;
 
-False
+True
 

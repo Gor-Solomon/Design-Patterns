@@ -9,5 +9,6 @@ namespace CommandPattern.Code
     interface ICommand
     {
         void Execute();
+        void UnExecute();
     }
 }

@@ -1,0 +1,26 @@
+﻿<Window x:Class="CommandPattern.Code.Recivers.Stereo.StereoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CommandPattern.Code.Recivers.Stereo"
+        mc:Ignorable="d"
+        Title="Stereo ID " Height="215" Width="300">
+    <Grid>
+        <StackPanel>
+            <Label Margin="10" Name="lb_SongName">Song Name: </Label>
+            <Button HorizontalAlignment="Left" Margin="10,0,10,10" Name="btnOpenAudioFile" Height="25" Width="100" Click="btnOpenAudioFile_Click">Open Audio File</Button>
+            <Border BorderBrush="Gray" BorderThickness="3" Margin="10">
+            <StackPanel Margin="10">
+                <Label Name="lblStatus" Content="Not playing..." HorizontalContentAlignment="Center" Margin="5" />
+                <WrapPanel HorizontalAlignment="Center">
+                    <Button Name="btnPlay" Click="btnPlay_Click">Play</Button>
+                    <Button Name="btnPause" Margin="5,0" Click="btnPause_Click">Pause</Button>
+                    <Button Name="btnStop" Click="btnStop_Click">Stop</Button>
+                </WrapPanel>
+            </StackPanel>
+            </Border>
+        </StackPanel>
+        
+    </Grid>
+</Window>
