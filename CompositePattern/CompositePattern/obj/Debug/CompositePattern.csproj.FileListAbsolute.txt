@@ -1,0 +1,6 @@
+c:\users\goruen\source\repos\CompositePattern\CompositePattern\bin\Debug\CompositePattern.dll
+c:\users\goruen\source\repos\CompositePattern\CompositePattern\bin\Debug\CompositePattern.pdb
+c:\users\goruen\source\repos\CompositePattern\CompositePattern\obj\Debug\CompositePattern.csprojResolveAssemblyReference.cache
+c:\users\goruen\source\repos\CompositePattern\CompositePattern\obj\Debug\CompositePattern.csproj.CoreCompileInputs.cache
+c:\users\goruen\source\repos\CompositePattern\CompositePattern\obj\Debug\CompositePattern.dll
+c:\users\goruen\source\repos\CompositePattern\CompositePattern\obj\Debug\CompositePattern.pdb

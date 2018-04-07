@@ -1,0 +1,9 @@
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\bin\Release\CompositePatternTest.exe.config
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\bin\Release\CompositePatternTest.exe
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\bin\Release\CompositePatternTest.pdb
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\bin\Release\CompositePattern.dll
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\bin\Release\CompositePattern.pdb
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\obj\Release\CompositePatternTest.csprojResolveAssemblyReference.cache
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\obj\Release\CompositePatternTest.csproj.CoreCompileInputs.cache
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\obj\Release\CompositePatternTest.exe
+c:\users\goruen\source\repos\CompositePattern\CompositePatternTest\obj\Release\CompositePatternTest.pdb

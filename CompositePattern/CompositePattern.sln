@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "CompositePattern\CompositePattern.csproj", "{4C1732AD-8CFB-4272-931F-CA1BB712AD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatternTest", "CompositePatternTest\CompositePatternTest.csproj", "{D5A32862-1893-4140-B31C-F68674CD1356}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C1732AD-8CFB-4272-931F-CA1BB712AD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1732AD-8CFB-4272-931F-CA1BB712AD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1732AD-8CFB-4272-931F-CA1BB712AD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1732AD-8CFB-4272-931F-CA1BB712AD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A32862-1893-4140-B31C-F68674CD1356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A32862-1893-4140-B31C-F68674CD1356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A32862-1893-4140-B31C-F68674CD1356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A32862-1893-4140-B31C-F68674CD1356}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {516C226C-727F-4F5F-9982-A5ED4FA4B844}
+	EndGlobalSection
+EndGlobal
