@@ -23,6 +23,7 @@ namespace StatePattern
         public MainWindow()
         {
             InitializeComponent();
+            
         }
     }
 }

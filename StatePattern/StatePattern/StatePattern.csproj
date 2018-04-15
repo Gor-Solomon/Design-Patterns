@@ -62,6 +62,15 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Code\Utility\Constants.cs" />
+    <Compile Include="Code\IState.cs" />
+    <Compile Include="Code\ATM.cs" />
+    <Compile Include="Code\States\CardInsertedState.cs" />
+    <Compile Include="Code\States\CheckBalanceState.cs" />
+    <Compile Include="Code\States\HasPinState.cs" />
+    <Compile Include="Code\States\NoCardState.cs" />
+    <Compile Include="Code\States\WithdrawMoneyState.cs" />
+    <Compile Include="Code\Utility\Cryptography.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
