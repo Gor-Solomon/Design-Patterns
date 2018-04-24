@@ -1,0 +1,15 @@
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern.csprojResolveAssemblyReference.cache
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\MainWindow.g.cs
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\App.g.cs
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern_MarkupCompile.cache
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern_MarkupCompile.lref
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\bin\Debug\StatePattern.exe.config
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\bin\Debug\StatePattern.exe
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\bin\Debug\StatePattern.pdb
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\MainWindow.baml
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern.g.resources
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern.Properties.Resources.resources
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern.csproj.GenerateResource.Cache
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern.csproj.CoreCompileInputs.cache
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern.exe
+C:\Users\Goruen\Desktop\Design-Patterns\StatePattern\StatePattern\obj\Debug\StatePattern.pdb
