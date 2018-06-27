@@ -88,14 +88,14 @@ namespace DecoratorPattern
 
         private void btRotate_Left_Click(object sender, RoutedEventArgs e)
         {
-            mainImage = new RotateImage(mainImage, RotateFlipType.Rotate90FlipNone);
+            mainImage = new RotateImage(mainImage, RotateFlipType.Rotate90FlipXY);
             Bitmap dd = mainImage.ApplyEffect();
             imgDisplayImage.Source = ImageOperations.Bitmap2ImageSource(dd);
         }
 
         private void btRotate_Right_Click(object sender, RoutedEventArgs e)
         {
-            mainImage = new RotateImage(mainImage, RotateFlipType.Rotate90FlipX);
+            mainImage = new RotateImage(mainImage, RotateFlipType.Rotate90FlipNone);
             Bitmap dd = mainImage.ApplyEffect();
             imgDisplayImage.Source = ImageOperations.Bitmap2ImageSource(dd);
         }

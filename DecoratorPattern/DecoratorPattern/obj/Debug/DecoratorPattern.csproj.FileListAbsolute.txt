@@ -45,7 +45,6 @@ C:\Users\Goruen\Desktop\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\De
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\bin\Debug\DecoratorPattern.exe.config
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern.exe
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern.pdb
-C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern.csprojResolveAssemblyReference.cache
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\MainWindow.g.cs
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\App.g.cs
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern_MarkupCompile.cache
@@ -56,3 +55,5 @@ C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\Deco
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern.g.resources
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern.Properties.Resources.resources
 C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern.csproj.GenerateResource.Cache
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern.csprojAssemblyReference.cache
+C:\Users\gsoghomo\Desktop\personal-private\Design-Patterns\DecoratorPattern\DecoratorPattern\obj\Debug\DecoratorPattern.csproj.CoreCompileInputs.cache

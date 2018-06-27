@@ -17,3 +17,4 @@
 /DecoratorPattern/DecoratorPattern/obj/Debug/DecoratorPattern_MarkupCompile.i.lref
 /DecoratorPattern/.vs
 /StatePattern/packages
+*.cache

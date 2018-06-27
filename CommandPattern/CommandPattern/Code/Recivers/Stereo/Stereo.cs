@@ -28,6 +28,11 @@ namespace CommandPattern.Code.Recivers.Stereo
             stereo.mediaPlayer.Pause();
         }
 
+        public bool CDExists()
+        {
+            return !string.IsNullOrEmpty(stereo.fileName);
+        }
+
         public void SetCD(string path)
         {
             if(path != stereo.fileName)

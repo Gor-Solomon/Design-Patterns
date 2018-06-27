@@ -20,7 +20,10 @@ namespace CommandPattern.Code.Commands
         }
         public void Execute()
         {
-            stereo.SetCD("Code\\Recivers\\Stereo\\StairwayToHeaven.mp3");
+            if (!stereo.CDExists())
+            {
+                stereo.SetCD("StairwayToHeaven.mp3");
+            }
             stereo.On();
             stereo.SetVolume(30);
         }
