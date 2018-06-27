@@ -18,3 +18,4 @@
 /DecoratorPattern/.vs
 /StatePattern/packages
 *.cache
+obj
